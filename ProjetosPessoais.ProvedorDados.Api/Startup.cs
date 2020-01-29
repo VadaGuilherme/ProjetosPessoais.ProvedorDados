@@ -51,7 +51,7 @@ namespace ProjetosPessoais.ProvedorDados.API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

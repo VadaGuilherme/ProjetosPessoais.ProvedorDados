@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Dominio", "02 - Domini
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{42DCE2E5-941C-4D81-A5EE-7B67B9EDD46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetosPessoais.ProvedorDados.API", "ProjetosPessoais.ProvedorDados.API\ProjetosPessoais.ProvedorDados.API.csproj", "{5BD1E2B4-DA95-4A8C-AA5C-A31F17B8A825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetosPessoais.ProvedorDados.API", "ProjetosPessoais.ProvedorDados.API\ProjetosPessoais.ProvedorDados.API.csproj", "{5BD1E2B4-DA95-4A8C-AA5C-A31F17B8A825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetosPessoais.Dominio", "ProjetosPessoais.Dominio\ProjetosPessoais.Dominio.csproj", "{0EF9ADA1-C8D2-4009-86FB-A8862EC86B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetosPessoais.Dominio", "ProjetosPessoais.Dominio\ProjetosPessoais.Dominio.csproj", "{0EF9ADA1-C8D2-4009-86FB-A8862EC86B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetosPessoais.Repositorio.API", "ProjetosPessoais.Repositorio.API\ProjetosPessoais.Repositorio.API.csproj", "{3C38C539-D33E-4C32-9430-988217481D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetosPessoais.Repositorio.API", "ProjetosPessoais.Repositorio.API\ProjetosPessoais.Repositorio.API.csproj", "{3C38C539-D33E-4C32-9430-988217481D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetosPessoais.Repositorio.Database", "ProjetosPessoais.Repositorio.Database\ProjetosPessoais.Repositorio.Database.csproj", "{14D6DDDF-41C6-4594-8744-79528D648C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetosPessoais.Repositorio.Database", "ProjetosPessoais.Repositorio.Database\ProjetosPessoais.Repositorio.Database.csproj", "{14D6DDDF-41C6-4594-8744-79528D648C00}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D6EEDB19-9C24-4876-9E88-5FBF6D79CD5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{14D6DDDF-41C6-4594-8744-79528D648C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D6DDDF-41C6-4594-8744-79528D648C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D6DDDF-41C6-4594-8744-79528D648C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EEDB19-9C24-4876-9E88-5FBF6D79CD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EEDB19-9C24-4876-9E88-5FBF6D79CD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EEDB19-9C24-4876-9E88-5FBF6D79CD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEDB19-9C24-4876-9E88-5FBF6D79CD5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
