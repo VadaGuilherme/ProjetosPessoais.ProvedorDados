@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjetosPessoais.Repositorio.Database.Configuracao.Calendario;
 using ProjetosPessoais.Repositorio.Database.Configuracao.ContasPagar;
+using ProjetosPessoais.Repositorio.Database.Configuracao.Usuarios;
 using ProjetosPessoais.Repositorio.Database.Seed;
 
 namespace ProjetosPessoais.Repositorio.Database.Contexto
@@ -13,6 +14,7 @@ namespace ProjetosPessoais.Repositorio.Database.Contexto
         {
             modelBuilder.ApplyConfiguration(new BancosEntidadeConfiguracao());
             modelBuilder.ApplyConfiguration(new CalendarioEntidadeConfiguracao());
+            modelBuilder.ApplyConfiguration(new UsuariosEntidadeConfiguracao());
             modelBuilder.Seed();
             base.OnModelCreating(modelBuilder);
         }

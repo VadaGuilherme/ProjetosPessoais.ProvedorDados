@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetosPessoais.Repositorio.Database.Contexto;
 
 namespace ProjetosPessoais.Repositorio.Database.Migrations
 {
     [DbContext(typeof(ProjetosPessoaisContexto))]
-    partial class ProjetosPessoaisContextoModelSnapshot : ModelSnapshot
+    [Migration("20200214022656_DesenvolvidoTokenEUsuario")]
+    partial class DesenvolvidoTokenEUsuario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
