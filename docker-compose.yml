@@ -5,10 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}projetospessoaisprovedordadosapi
     build:
       context: .
-      dockerfile: ProjetosPessoais.ProvedorDados.API\Dockerfile
-    depends_on:
-      - sql.data
-
-  sql.data:
-    container_name: sqlservice
-    image: microsoft/mssql-server-windows-developer
+      dockerfile: ProjetosPessoais.ProvedorDados.API/Dockerfile
